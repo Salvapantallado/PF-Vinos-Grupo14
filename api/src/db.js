@@ -31,7 +31,7 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 
 //const { models } = sequelize.models;
-
+const { Categories, Order, OrderLine, Product, Review, User, Variety, WineCellar } = sequelize.models;
 //Relations 
 
 
